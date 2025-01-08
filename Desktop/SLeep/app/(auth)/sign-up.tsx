@@ -24,6 +24,7 @@ const SignUp = () => {
                 Welcome to better nights
               </Text>
               <Text className="text-gray-500 text-xl left-4">Create an account to get started</Text>
+              <Text className="text-gray-300">SUp dawg</Text>
               </View>
              </SafeAreaView>
               </LinearGradient>

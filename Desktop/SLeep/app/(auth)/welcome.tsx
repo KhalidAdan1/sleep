@@ -57,7 +57,7 @@ const OnBoarding = () => {
     </View>
     <View>
       <Text className="text-white text-2xl flex items-center justify-center pl-2">
-          Already have an Account? 
+          Already have an Account
         </Text>
       <TouchableOpacity
       className="flex items-center justify-center"
