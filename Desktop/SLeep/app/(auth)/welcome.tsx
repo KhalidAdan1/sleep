@@ -55,21 +55,21 @@ const OnBoarding = () => {
       </View>
     </TailwindProvider>
     </View>
-    <View>
-      <Text className="text-white text-2xl flex items-center justify-center pl-2">
-          Already have an Account
-        </Text>
-      <TouchableOpacity
+    <View className="flex-row items-center justify-center p-2">
+      <Text className="text-white text-2xl flex items-center justify-center ">
+          Already have an Account?
+          </Text>
+          <TouchableOpacity
       className="flex items-center justify-center"
       onPress={() => {
         router.push('/(auth)/sign-in')
       }}
       >
-        <Text className="text-blue-400 text-2xl flex-end items-end justify-end ">
-          Log in
-        </Text>
-
+        <Text className="text-blue-400 text-2xl pl-2">
+      Log in
+    </Text>
       </TouchableOpacity>
+      
       </View>
       </View>
       </SafeAreaView>
