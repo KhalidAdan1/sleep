@@ -18,7 +18,7 @@ const OnBoarding = () => {
         className="flex-1"
       >
       <SafeAreaView className="flex">
-        <Text className="flex text-7xl flex-auto text-white">Ready to change 
+        <Text className="flex text-6xl flex-auto text-white">Ready to change 
           the way you {'\n'}
           sleep? 
         </Text>
