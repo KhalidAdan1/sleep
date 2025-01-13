@@ -23,7 +23,7 @@ const SignUp = () => {
               <Text className="text-white text-3xl ">
                 Welcome to better nights
               </Text>
-              <Text className="text-gray-500 text-xl left-4">Create an account to get started</Text>
+              <Text className="text-gray-500 text-xl left-4">Create account to get started</Text>
               </View>
              </SafeAreaView>
               </LinearGradient>

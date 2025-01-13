@@ -2,21 +2,27 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import "nativewind";
 import { router } from "expo-router";
+import { LinearGradient } from "expo-linear-gradient";
+import { Icon } from "react-native-vector-icons/Icon";
 
 const SignIn = () => {
   
   return (
-    <SafeAreaView className="flex justify-center items-center flex-1">
-          <Text className="text-red-700 flex justify-center items-center flex-auto">Sign in</Text>
-           <TouchableOpacity className="w-full flex justify-center"
+    <LinearGradient
+                  colors={['#100043', '#6B40F8']}
+                  className="flex-1"
+                >
+                  <SafeAreaView className="flex justify-center items-center flex-1">
+           <TouchableOpacity className="absolute top-12 left-3 p-5 rounded-full"
                     onPress={() => {
                       router.replace('/(auth)/welcome');
                     } }>
-                    <Text className=" text-lg">
-                      Get Started
-                    </Text>
+                      <Icon name="arrow-back-outline" size={36} color="#CAC4C4" />
                   </TouchableOpacity>
-        </SafeAreaView>
+                  <View className="absolute top-32">
+                  </View>
+                 </SafeAreaView>
+                  </LinearGradient>
   );
 };
 
