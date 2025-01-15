@@ -21,6 +21,9 @@ const SignIn = () => {
                       <View>
                       <Icon name="arrow-back-outline" size={36} color="#CAC4C4" />
                       </View>
+                      <Text>
+                        Sign in
+                      </Text>
                   </TouchableOpacity>
                   <View className="absolute top-32">
                   </View>
