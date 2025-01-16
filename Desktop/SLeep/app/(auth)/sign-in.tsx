@@ -14,7 +14,7 @@ const SignIn = () => {
                   className="flex-1"
                 >
                   <SafeAreaView className="flex justify-center items-center flex-1">
-           <TouchableOpacity className="absolute top-12 left-3 p-5 rounded-full"
+           <TouchableOpacity className=" flex absolute top-12 left-3 p-5 rounded-full"
                     onPress={() => {
                       router.replace('/(auth)/welcome');
                     } }>
