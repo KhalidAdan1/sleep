@@ -4,14 +4,15 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import Icon from 'react-native-vector-icons/Ionicons';
-import React from "react";
+import React = require("react");
+
 
 const SignIn = () => {
   
   return (
     <LinearGradient
                   colors={['#100043', '#6B40F8']}
-                  className="flex-1"
+                  className="flex-1 flex"
                 >
                   <SafeAreaView className="flex justify-center items-center flex-1">
            <TouchableOpacity className=" flex absolute top-12 left-3 p-5 rounded-full"
