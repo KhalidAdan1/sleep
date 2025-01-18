@@ -6,6 +6,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import Icon from 'react-native-vector-icons/Ionicons';
 import React from "react";
 
+
 const SignUp = () => {
   
   return (
