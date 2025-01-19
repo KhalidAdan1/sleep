@@ -4,13 +4,18 @@ import 'nativewind';
 import { router } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import Icon from 'react-native-vector-icons/Ionicons';
-import React from "react";
+import React, { useState } from "react";
 import InputField from "../components/InputField";
 
 
 
 const SignIn = () => {
-  
+  const [form , setForm]= useState({
+    name: '',
+    email: '',
+    password: '',
+   }
+   );
   return (
         <LinearGradient
                 colors={['#100043', '#6B40F8']}
@@ -31,8 +36,14 @@ const SignIn = () => {
                 </View>
                 <View>
                   <InputField 
-                  label='Name',
+                  label='Name'
                   placeholder='Enter your name'
+                  value={form.name}
+                  onChangeText={(value)=>{
+                    setForm({...form ,
+                      name: value
+                    })
+                  }}
                   />
                 </View>
                </SafeAreaView>

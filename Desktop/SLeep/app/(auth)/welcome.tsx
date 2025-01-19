@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
-import {TailwindProvider} from "tailwindcss-react-native"
+
 
 
 
@@ -44,7 +44,7 @@ const OnBoarding = () => {
       </TouchableOpacity>
       </View>
       <View className="mt-10">
-      <TailwindProvider>
+     
       <View className="flex-row items-center my-4">
        
         <View className="flex-1 h-0.5 bg-gray-300 mx-6" />
@@ -53,7 +53,7 @@ const OnBoarding = () => {
         <Text className="px-4 text-gray-400 font-medium text-lg">OR</Text>
         <View className="flex-1 h-0.5 bg-gray-300 mx-6" />
       </View>
-    </TailwindProvider>
+  
     </View>
     <View className="flex-row items-center justify-center p-2">
       <Text className="text-white text-2xl flex items-center justify-center ">
