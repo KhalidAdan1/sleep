@@ -1,5 +1,5 @@
 import { Text, TouchableOpacity, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native";
 import 'nativewind';
 import { router } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";

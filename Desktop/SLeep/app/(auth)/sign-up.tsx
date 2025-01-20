@@ -1,11 +1,11 @@
 import { Text, TouchableOpacity, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { SafeAreaView } from "react-native";
 import { router } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import Icon from 'react-native-vector-icons/Ionicons';
-import React, { useState } from "react";
 import InputField from "../components/InputField";
+import { useState } from "react";
+import React from "react";
 
 
 const SignUp = () => {
@@ -27,7 +27,7 @@ const SignUp = () => {
                 } }>
                   <Icon name="arrow-back-outline" size={36} color="#CAC4C4" />
               </TouchableOpacity>
-              <View className="absolute top-28">
+              <View className="absolute top-28 ">
               <Text className="text-white text-3xl ">
                 Welcome to better nights
               </Text>
@@ -49,7 +49,7 @@ const SignUp = () => {
                   label='Email'
                   placeholder='Enter your Email'
                   value={form.email}
-                  labelStyle="text-gray-500"
+                  labelStyle="text-red-500"
                   onChangeText={(value)=>{
                     setForm({...form ,
                       email: value
