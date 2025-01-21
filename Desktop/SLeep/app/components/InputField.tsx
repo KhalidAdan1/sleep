@@ -18,7 +18,7 @@ secureTextEntry = false,
  <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? "padding" : "height"}>
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <View className="w-full my-2">
-            <Text className="text-[20px]">
+            <Text className="text-[24px]">
         {label}
             </Text>
             <View className="flex flex-row justify-start items-center relative bg-gray-200 rounded-full border
