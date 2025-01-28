@@ -32,11 +32,11 @@ const SignUp = () => {
                 Welcome to better nights
               </Text>
               <Text className="text-gray-500  text-xl left-4">Create account to get started</Text>
-              </View>
-              <View className="w-full px-6">
-                  <InputField 
+              
+              <View className="w-full mt-20">
+                  <InputField
                   label='Name'
-                  placeholder='Enter your name'
+                  placeholder='Enter your Name'
                   value={form.name}
                   labelStyle="flex"
                   onChangeText={(value)=>{
@@ -49,7 +49,8 @@ const SignUp = () => {
                   label='Email'
                   placeholder='Enter your Email'
                   value={form.email}
-                  labelStyle="text-red-500"
+                  labelStyle="text-gray-500"
+                
                   onChangeText={(value)=>{
                     setForm({...form ,
                       email: value
@@ -58,7 +59,7 @@ const SignUp = () => {
                   />
                   <InputField 
                   label='Password'
-                  placeholder='Enter your password'
+                  placeholder='Enter your Password'
                   value={form.password}
                   secureTextEntry={true}
                   onChangeText={(value)=>{
@@ -67,6 +68,7 @@ const SignUp = () => {
                     })
                   }}
                   />
+                </View>
                 </View>
              </SafeAreaView>
               </LinearGradient>
