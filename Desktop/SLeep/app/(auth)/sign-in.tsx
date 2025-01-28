@@ -39,7 +39,7 @@ const SignIn = () => {
               <View className="w-full mt-20 px-6">
                   <InputField 
                   label='Email'
-                  placeholder='Enter your Email'
+                  placeholder='Enter Your Email'
                   value={form.email}
                   labelStyle="text-gray-500"
                 
@@ -51,7 +51,7 @@ const SignIn = () => {
                   />
                   <InputField 
                   label='Password'
-                  placeholder='Enter your Password'
+                  placeholder='Enter Your Password'
                   value={form.password}
                   secureTextEntry={true}
                   onChangeText={(value)=>{

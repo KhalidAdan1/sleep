@@ -36,7 +36,7 @@ const SignUp = () => {
               <View className="w-full mt-20">
                   <InputField
                   label='Name'
-                  placeholder='Enter your Name'
+                  placeholder='Enter Your Name'
                   value={form.name}
                   labelStyle="flex"
                   onChangeText={(value)=>{
@@ -47,7 +47,7 @@ const SignUp = () => {
                   />
                   <InputField 
                   label='Email'
-                  placeholder='Enter your Email'
+                  placeholder='Enter Your Email'
                   value={form.email}
                   labelStyle="text-gray-500"
                 
@@ -59,7 +59,7 @@ const SignUp = () => {
                   />
                   <InputField 
                   label='Password'
-                  placeholder='Enter your Password'
+                  placeholder='Enter Your Password'
                   value={form.password}
                   secureTextEntry={true}
                   onChangeText={(value)=>{
