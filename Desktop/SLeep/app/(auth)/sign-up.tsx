@@ -6,8 +6,9 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import InputField from "../components/InputField";
 import { useState } from "react";
 import React from "react";
+import Button from "../components/Button";
 
-
+const onSignUpPress = async() => {};
 const SignUp = () => {
   const [form , setForm]= useState({
       name: '',
@@ -67,6 +68,10 @@ const SignUp = () => {
                       password: value
                     })
                   }}
+                  />
+                  <Button 
+                  onPress={onSignUpPress}
+                  title="Sign Up"
                   />
                 </View>
                 </View>
