@@ -6,7 +6,7 @@ import { Text, TouchableOpacity } from "react-native";
 interface ButtonProps {
     onPress: () => void;
     isLoading?: boolean;
-    title?: string;
+    title: string;
     className?:string;
 }
 
