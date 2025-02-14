@@ -6,7 +6,7 @@ import { Text, TouchableOpacity } from "react-native";
 interface ButtonProps {
     onPress: () => void;
     isLoading?: boolean;
-    title: string;
+    title?: string;
     className?:string;
 }
 
@@ -23,7 +23,7 @@ const Button = ({
       className='text-white'
       {...props}
     >
-      <Text className='text-white'>
+      <Text className='text-slate-400'>
         {title}
       </Text>
     </TouchableOpacity>
