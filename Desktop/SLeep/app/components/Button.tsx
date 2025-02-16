@@ -23,7 +23,7 @@ const Button = ({
       className='text-white'
       {...props}
     >
-      <Text className='text-slate-400'>
+      <Text className='text-white'>
         {title}
       </Text>
     </TouchableOpacity>
