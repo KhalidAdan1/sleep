@@ -1,12 +1,15 @@
 import React from "react"
-import { SafeAreaView, Text } from "react-native"
+import { SafeAreaView, Text, Touchable, TouchableOpacity } from "react-native"
 
 const dates = () => {
     return(
         <SafeAreaView>
-       <Text >
-        hello
-       </Text>
+       <TouchableOpacity>
+        <Text>
+hey
+        </Text>
+    
+       </TouchableOpacity>
         </SafeAreaView>
     )
 }
